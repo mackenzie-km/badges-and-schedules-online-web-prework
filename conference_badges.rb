@@ -18,8 +18,9 @@ return new_array
 end
 
 def printer(array)
-for number in array
-puts batch_badge_creator(array[number])
-puts assign_rooms(array[number])
+    new_array = []
+array.each_with_index{name, index| 
+puts batch_badge_creator(array)
+puts assign_rooms(array)}
 end
 end
