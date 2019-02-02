@@ -16,3 +16,7 @@ new_array.push("Hello, #{name}! You'll be assigned to room #{room_number}!"
 end
 new_array
 end
+
+def printer
+  batch_badge_creator
+  assign_rooms
