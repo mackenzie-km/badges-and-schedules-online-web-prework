@@ -20,6 +20,6 @@ end
 
 def printer(array)
   array.each{|number|
-puts batch_badge_creator(number)
+puts batch_badge_creator(array)
 puts assign_rooms(number)}
 end
