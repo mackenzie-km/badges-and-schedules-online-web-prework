@@ -17,7 +17,7 @@ new_array.push("Hello, #{name}! You'll be assigned to room #{index+1}!")}
 return new_array
 end
 
-def printer(attendees)
+def printer(attendees, array)
   puts batch_badge_creator(array)
   puts assign_rooms(array)
 end
