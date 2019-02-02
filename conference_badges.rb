@@ -12,6 +12,7 @@ end
 
 def assign_rooms(name)
 for name in array
+room_number = array.each_with_
 new_array.push("Hello, #{name}! You'll be assigned to room #{room_number}!"
 end
 new_array
