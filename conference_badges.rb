@@ -17,9 +17,8 @@ new_array.push("Hello, #{name}! You'll be assigned to room #{index+1}!")}
 return new_array
 end
 
-require "pry"
+require
 def printer(array)
 puts batch_badge_creator(array[1])
 puts assign_rooms(array[1])}
-binding.pry
 end
