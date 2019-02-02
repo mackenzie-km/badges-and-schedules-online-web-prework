@@ -19,9 +19,9 @@ end
 
 
 def printer(array)
-array
-for i in array
-puts batch_badge_creator(array)
-puts assign_rooms(array)
+i = 0
+for i in array[i]
+puts batch_badge_creator(array[i])
+puts assign_rooms(array[i])
 end
 end
