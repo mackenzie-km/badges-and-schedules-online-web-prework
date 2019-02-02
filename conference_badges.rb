@@ -23,6 +23,6 @@ array.each_with_index{|name, index|
 badge_batch = batch_badge_creator(array)
 room_assignments = assign_rooms(array)
   puts badge_batch[index]
-  puts room_assigmments[index]
+  puts room_assignments[index]
 }
 end
