@@ -12,7 +12,7 @@ end
 
 def assign_rooms(name)
 new_array = []
-array.each_with_index{|name, index| }
+array.each_with_index{|name, index| return name, index}
 new_array
 end
 
