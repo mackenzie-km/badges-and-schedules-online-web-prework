@@ -18,8 +18,8 @@ return new_array
 end
 
 def printer(array)
-  for name in array
-  puts batch_badge_creator(array)
-  puts assign_rooms(array)
+array[i]
+puts batch_badge_creator(array)
+puts assign_rooms(array)
 end
 end
