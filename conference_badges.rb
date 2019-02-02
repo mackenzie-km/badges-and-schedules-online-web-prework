@@ -20,8 +20,7 @@ end
 
 def printer(array)
 i = 0
-for i in array[i]
+array.each{|i|
 puts batch_badge_creator(array[i])
-puts assign_rooms(array[i])
-end
+puts assign_rooms(array[i])}
 end
