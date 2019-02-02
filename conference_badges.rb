@@ -19,8 +19,7 @@ end
 
 require "pry"
 def printer(array)
-array.each_with_index{|name, index| 
-puts batch_badge_creator(array)
-puts assign_rooms(array)}
+puts batch_badge_creator(array[1])
+puts assign_rooms(array[1])}
 binding.pry
 end
