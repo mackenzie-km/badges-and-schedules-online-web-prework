@@ -23,4 +23,3 @@ array.each_with_index{|name, index|
 puts batch_badge_creator(array)
 puts assign_rooms(array)}
 end
-end
