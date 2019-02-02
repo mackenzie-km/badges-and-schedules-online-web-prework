@@ -17,9 +17,10 @@ new_array.push("Hello, #{name}! You'll be assigned to room #{index+1}!")}
 return new_array
 end
 
+require "pry"
 def printer(array)
-    new_array = []
 array.each_with_index{|name, index| 
-puts batch_badge_creator(array[index])
-puts assign_rooms(array[index])}
+puts batch_badge_creator(index)
+puts assign_rooms(array[index)}
+binding.pry
 end
