@@ -10,7 +10,7 @@ end
 new_array
 end
 
-def assign_rooms(name)
+def assign_rooms(name, array)
 new_array = []
 array.each_with_index{|name, index| return name, index}
 new_array
