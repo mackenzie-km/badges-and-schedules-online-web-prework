@@ -19,8 +19,7 @@ end
 
 
 def printer(array)
-i = 0
-array.each{|i|
-puts batch_badge_creator(array[i])
-puts assign_rooms(array[i])}
+array.each_with_index{|name, index|
+puts batch_badge_creator(array[index])
+puts assign_rooms(array[index])}
 end
