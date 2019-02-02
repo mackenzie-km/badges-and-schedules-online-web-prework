@@ -19,7 +19,7 @@ end
 
 
 def printer(array)
-for name in array
+for array[i] in array
 puts batch_badge_creator(array)
 puts assign_rooms(array)
 end
