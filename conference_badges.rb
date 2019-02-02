@@ -13,7 +13,6 @@ end
 def assign_rooms(name)
 array.each_with_index(name, index)
 new_array.push("Hello, #{name}! You'll be assigned to room #{index}!"
-end
 new_array
 end
 
